@@ -46,8 +46,8 @@ iframe#tela {
 
 section#social-media {
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 92%;
+    
+    top: 90%;
     left: 50%;
 }
 
