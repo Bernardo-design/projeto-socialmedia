@@ -10,6 +10,7 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: black;
+    overflow: hidden;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main {
@@ -40,4 +42,25 @@ iframe#tela {
     bottom: 550px;
     width: 265px;
     height: 470px;
+}
+
+section#social-media {
+    position: relative;
+    text-align: right;
+    top: 25%;
+}
+
+section#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+section#social-media img:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.2s;
 }
