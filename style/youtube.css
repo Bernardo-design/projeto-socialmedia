@@ -1,0 +1,39 @@
+    @charset "UTF-8"
+ 
+     * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        img {
+            width: 100vw;
+        }
+
+        a {
+            display: block;
+            background-color: rgb(90, 16, 16);
+            color: white;
+            text-decoration: underline;
+            width: 100vw;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: rgb(224, 177, 143);
+        }
+
+        a:active {
+            transform: scale(95%);
+            transition: transform 0.2s;
+        }
+    
