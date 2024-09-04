@@ -46,8 +46,9 @@ iframe#tela {
 
 section#social-media {
     position: absolute;
-    text-align: right;
-    top: 25%;
+    transform: translate(-50%, -50%);
+    top: 92%;
+    left: 50%;
 }
 
 section#social-media img {
